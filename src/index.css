@@ -107,3 +107,24 @@ body{
 .container h2{
   margin-bottom: 14px;
 }
+
+.blogs{
+  
+}
+
+.footer{
+  padding: 3px 0;
+  margin-top: 5px;
+  border-top: .1em solid var(--outline-color);
+}
+.footer p{
+  color: var(--text-light);
+}
+.footer a{
+  color: var(--outline-color);
+  text-decoration: underline;
+  transition: 0.2s all ease;
+}
+.footer a:hover{
+  color: var(--text-light);
+}
