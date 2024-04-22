@@ -6,7 +6,7 @@ export const SideBar = () => {
         <div className='container-bar'>
             <div className="img">
             </div>
-            <Link to="/home"><h2>kefelle</h2></Link>
+            <Link to="/"><h2>kefelle</h2></Link>
             <p id='under-title'>2nd year computer science student</p>
 
             <ul>

@@ -10,7 +10,7 @@ function App() {
       <div className="gradient"></div>
       <SideBar />
       <Switch>
-        <Router index path="/home">
+        <Router index path="/">
           <About />
         </Router>
 
