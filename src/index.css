@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&family=Xanh+Mono:ital@0;1&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-
 }
 
 
@@ -128,3 +128,5 @@ body{
 .footer a:hover{
   color: var(--text-light);
 }
+
+/* ! How to use email js */
