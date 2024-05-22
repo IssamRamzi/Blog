@@ -31,7 +31,7 @@ const About = () => {
           :)
         </p>
 
-        <p>
+        <p id="last-p">
           besides discord you can contact me thru email, though, response may
           vary
         </p>

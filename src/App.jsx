@@ -6,19 +6,19 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <Router>
-    <div className="App">
-      <div className="gradient"></div>
-      <SideBar />
-      <Switch>
-        <Router index path="/">
-          <About />
-        </Router>
+      <div className="App">
+        <div className="gradient"></div>
+        <SideBar />
+        <Switch>
+          <Route exact path="/">
+            <About />
+          </Route>
 
-        <Router path="/blogs">
-          <Blogs/>
-        </Router>
-      </Switch>
-    </div>
+          <Route path="/blogs">
+            <Blogs/>
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }
